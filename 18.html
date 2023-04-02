@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <style>
+
+
+            .container{
+                display: flex;
+                background:linear-gradient(rgb(152, 57, 189),rgb(234, 219, 239));
+                height: 100%;
+            }
+            .box{
+                
+                border: 2px solid rgb(152, 57, 189);
+                height: 200px;
+                width: 200px;
+                position: relative;
+                animation: nihk 10s 2 forwards;
+            
+            }
+            @keyframes nihk {
+                from {
+                    left:0;
+                    top:0;
+                    /*transform:rotate(0deg);*/
+            }
+            25%{
+                top:0;
+                left:450px;
+            }
+            50% {
+                    left:450px;
+                    top:350px;
+            }
+            75%{
+                    left:0;
+                    top:350px;
+            }
+            to {
+                    left:0;
+                    top:0;
+            }
+            }
+           
+         
+        </style>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="box"> <img src="images/17.jpg" alt="img" height="200px" width="200px"> </div>
+        </div>
+    </body>
+</html>
