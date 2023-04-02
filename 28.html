@@ -1,0 +1,43 @@
+<html>
+    <head>
+		<style>
+			body{
+				background-image:url("images/bgs/light_checkered_tiles.png");
+			}
+			h1{
+				align-items: center;
+			}
+			h2{
+				align-items: center;
+			}
+		</style>
+
+    </head>
+    <body>
+        <script type="text/javascript">
+                    now=new Date();
+                    hour=now.getHours();
+                    name=window.prompt("enter ur name");
+                    if(hour<12)
+                    {
+                        document.write("<h1> hello gud morning "+name+" </h1> <h2> welcome here </h2>");
+                    }   
+                    else if(12<=hour<18)
+                    {
+                        document.write("<h1> hello gud afternoon "+name+" </h1><h2> welcome here </h2> ");
+                    }   
+                    else
+                    {
+                        document.write("<h1> hello good evening "+name+"</h1> <h2> welcome here </h2> ");
+                    }     
+
+
+
+
+        </script>
+
+
+
+    </body>
+
+</html>

@@ -1,0 +1,172 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            border: none;
+            outline: none;
+            text-decoration: none;
+            box-sizing: border-box;
+            
+        }
+        .nav {
+            background-color: black;
+            height: 50px;
+            justify-content: space-around;
+
+        }
+        
+        .navi {
+            background-color: rgb(103, 14, 53);
+            height: 50px;
+            justify-content: space-around;
+
+        }
+
+        .nav ul {
+            list-style: none;
+            overflow: auto;
+            justify-content: space-around;
+        }
+
+        .nav li {
+            color: aliceblue;
+            float: left;
+            text-decoration: none;
+            size: 50px;
+            margin-top: 10px;
+            justify-content: space-around;
+            margin-left: 30px;
+        }
+        .navi li { list-style: none;
+            color: aliceblue;
+            float: left;
+            text-decoration: none;
+            margin-top: 10px;
+            justify-content: space-around;
+            margin-left: 500px;
+        }
+        .nav a {
+            text-decoration: none;
+            color: aliceblue;
+            justify-content: space-around;
+        }
+
+        .nav a:hover {
+            text-decoration: underline;
+            justify-content: space-around;
+        }
+
+        .search {
+
+            color: aliceblue;
+            float: right;
+            margin-right: 20px;
+            margin-top: 10px;
+            
+        }
+        .c{
+            align-items: center;
+            justify-content: center;
+            margin-left: 400px;
+            padding-left: 400px;
+        }
+        #td1{
+           
+            height: 200px;
+            width: 200px;
+        }
+        #button{
+            background-color: #c2fbd7;
+            border-radius: 100px;
+         color: rgb(103, 14, 53);
+            cursor: pointer;
+            display: inline-block;
+            font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+            padding: 7px 20px;
+            text-align: center;
+            text-decoration: none;
+            transition: all 250ms;
+            border: 0;
+            font-size: 16px;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            justify-content: space-between;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navi">
+            <ul>
+                <li align="center" id="c">BOOKIsYS</li>
+             
+            </ul>
+        </nav>
+     
+       <form action="login.html" >
+        <table border=0 align="center" height="80%" bgcolor=#E8F8F5 width="100%" cellspacing=2 cellpadding=10>
+            <tr>
+                <td colspan=2 align="center"><h1><u>Registration Page</u></h1></td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                <td><label>First Name</label></td>
+                <td>
+                    <input type=text name=n placeholder="First Name" required autofocus/>  
+                </td>
+                <tr>
+                    <td><label>Last Name</label></td>
+                    <td>
+                    <input type=text name=sn placeholder="Last Name" required /><br></td>
+                </tr>
+                <tr>
+                    <td><label>Phone Number<br>(Please enter a valid phone number)</label></td>
+                    <td><input type=number name=pn placeholder="(000) 0000000000" /><br></td>
+                </tr>
+                <tr>
+                    <td><label>Email</label></td>
+                    <td><input type=email name=e placeholder="abc@xyz.com"/><br></td>
+                </tr>
+                <tr>
+                    <td><label>Username</label></td>
+                    <td><input type=text name=uname required /><br></td>
+                </tr>
+                <tr>
+                    <td><label>Password</label></td>
+                    <td><input type=password name=pass required /><br></td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td>
+                        <input type=radio name=gender value="MALE" />Male
+                        <input type=radio name=gender value="FEMALE"/>Female<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" colspan=2 >
+                        <input type=submit value=Register id="button" /> 
+
+                        <input type=reset value="Reset" id="button" />
+                    </td>
+                </tr>
+            </table>
+
+       </form>
+
+
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<style>
+			H1{
+				background-color: firebrick;
+			}
+			DIV{
+				background-color: rgb(200, 136, 136);
+			height: 80%;
+			text-align: CENTER;
+			color:rgb(50, 4, 4);
+				font-size:80px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 ALIGN="CENTER">TIME!!</h1>
+		<div id=clock></div>
+		<script>
+			
+			function clock(){
+				d=new Date();
+				hr=d.getHours();
+				mins=d.getMinutes();
+				ss=d.getSeconds();
+				if(hr<10){
+					hr="0"+hr;
+				}
+				if(mins<10)
+				{
+					mins="0"+mins;
+				}
+				if(ss<10)
+				{
+					ss="0"+ss;
+				}
+				cTime=hr+":"+mins+":"+ss;
+				x=document.getElementById('clock');
+				x.innerHTML=cTime;
+			}
+			setInterval(clock,1000);
+		</script>
+	</body>
+</html>

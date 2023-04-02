@@ -1,0 +1,222 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+
+        margin: 0;
+        padding: 0;
+        border: none;
+        outline: none;
+        text-decoration: none;
+        box-sizing: border-box;
+        
+    
+}
+        .link>nav > ul > a{
+            text-decoration: none;
+        }
+        .link>nav>ul{
+            list-style:none;
+            margin:0;
+            padding:10px;
+            width:100%;
+            display:flex;
+            justify-content:space-around;
+        }
+        .link>nav > ul li{
+            font-size:20px;
+            text-transform:capitalize;
+            margin:3px;
+            padding:5px;
+            text-align:center;
+            text-transform:uppercase;
+            color:white;
+        }
+        .link nav{
+            position:relative;
+        }
+        .link>nav>ul li:hover{
+            transform: scale(1.03);
+            transition: 1s;
+            color:lightblue;
+        }
+        .link{
+            background:linear-gradient(rgb(66,8,90),rgba(8,9,7));
+            margin:10px;
+        }
+        .container{
+            display:flex; 
+            flex-direction:column;
+            width:100%;
+            height:2500px;
+            justify-content:space-around; /*for horizontal alignment*/
+            align-items:center; /*for vertical alignment*/
+            position:relative;
+        }
+        .container > .c1{
+            background-image:url("images/5687188.jpg");
+            
+            width:100%;
+            height:45%;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+        .container > .c2{
+            background-image:url("images/5614829.jpg");
+            width:100%;
+            height:45%;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+        .container > .c3{
+            background-image:url("images/5665667.jpg");
+            background-size:100% 100%;
+            width:100%;
+            height:45%;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+      
+        .container > .c6{
+            background-image:url("images/5666075.jpg");
+            width:100%;
+            height: 45%;
+            background-size:100% 100%;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+        .container > .c7{
+            background:linear-gradient(rgb(66,8,90),rgba(8,9,7));
+            width:100%;
+            height:5%;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            color:white;
+            font-size:20px;
+        }
+        .container .inner{
+            background-color:white;
+            width:80%;
+            height:60%;
+            margin:10px;
+            font-size:20px;
+            text-align:justify;
+            font-family:'Times Rew Roman';
+            line-height:1.5;
+            padding:20px;
+            border-radius:50px;
+            box-shadow: 10px 12px 2px lightgrey;
+            box-sizing:border-box;
+        }
+        .ff1{
+            box-sizing: border-box;
+            float:left;
+            height:70%;
+            width:42%;
+            padding:2%;
+            margin-left:4px;
+            font-size:20px;
+        }
+        .ff2{
+            display:flex;
+            justify-content:space-around;
+            align-items:normal;
+        }
+        span{
+            font-weight:bolder;
+            font-size: 25px;
+        }
+        ol>li>ul>li{
+            font-size:15px;
+        }
+        h1{
+            text-align:left;
+            margin-left:1%;
+        }
+        h3{
+            text-align:left;
+            margin-left:1%;
+        }
+        h4{
+            text-align:left;
+            margin-left:1%;
+        }
+    </style>
+</head>
+<body>
+   
+		<div class="link">
+			<nav>
+				<ul>
+					<a href="#"><li>Home</li></a>
+					<a href="#Bio"><li>Bio</li></a>
+					<a href="#Educational Qualification"><li>Educational Qualification</li></a>
+					
+					<a href="#D"><li>Declaration</li></a>
+				</ul>
+			</nav>
+			</div>
+        <div class="container">
+			<div class="c1">
+				<div class="inner">
+				<p>
+					<h1>NIHARIKA GARG</h1><br>   
+                    <h3>Pursuing B.TECH. (IT) </h3><br>
+                    My objective is to learn & learn.
+				</p>
+				</div>
+			</div>
+            <div class="c2">
+				<div class="inner">
+					<a name="Bio"><h1>BIO</h1></a>
+						<h3>A little more about me.</h3>
+						<div class="ff2">
+					<p class="ff1">
+						I was into coding since 8th grade. My mother is a computer Teacher so it always amazed me by seeing technologies.
+					</p>
+					<p class="ff1">
+						I can code in C++, Java in back-end ..
+					</p>
+				</div>
+				</div>
+			</div>
+			<div class="c3">
+				<div class="inner">
+					<a name="Educational Qualification"><h1>EDUCATIONAL QUALIFICATION</h1></a>
+                        <div class="ff2">
+					<p class="ff1">
+                     xt=yz
+                
+					</p>
+					</div>
+				</div>
+			</div>
+		
+			<div class="c6">
+				<div class="inner">
+						<a name="D"><h1>DECLARATION</h1></a>
+						<br><br>
+						<p>
+                        I hereby declare that the above information is true and correct to
+                        the best of my knowledge and belief and that I will do my best for 
+                        the good of the organization.</p><br><br>
+						<p>
+                        <br>Place: Ghaziabad , Uttar Pradesh.
+						</p>
+				</div>
+			</div>
+			<div class="c7">
+				coco. NIHARIKA GARG :))--
+			</div>
+		</div>
+</body>
+</html>
